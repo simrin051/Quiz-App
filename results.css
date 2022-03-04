@@ -1,0 +1,34 @@
+@import url(index.css);
+@import url(countries.css);
+
+.heading {
+    color: var(--secondary-color);
+}
+
+.sub-heading {
+    color: var(--secondary-color);
+}
+
+.correct-answer {
+    background-color: #22B14C !important;
+}
+.your-answer {
+    background-color: #FF6961 !important;
+}
+
+
+.answer-options {
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+}
+
+.answer-option {
+    background-color: var(--primary-shade-color);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    font-size: 20px;
+    color: var(--secondary-color);
+}
