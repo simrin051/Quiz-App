@@ -1,0 +1,41 @@
+@import url(index.css);
+
+body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.instruction-container {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 20px;
+
+    background-color: var(--primary-shade-color);
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.instruction-points .point {
+    margin-bottom: 1rem;
+}
+
+.start-play {
+    background-color: var(--primary-shade-color);
+    color: var(--secondary-color);
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+
+    border: none;
+    border-radius: 3.125rem;
+
+    padding: 10px;
+    width: 6.25rem;
+    margin: auto;
+    margin-top: 2rem;
+    left: 10vw;
+    right: 10vw;
+    position: absolute;
+}
