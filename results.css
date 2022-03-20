@@ -9,11 +9,12 @@
     color: var(--secondary-color);
 }
 
-.correct-answer {
-    background-color: #22B14C !important;
+.answer-option.correct-answer {
+    background-color: #22B14C;
 }
-.your-answer {
-    background-color: #FF6961 !important;
+
+.answer-option.your-answer {
+    background-color: #FF6961;
 }
 
 
@@ -29,6 +30,6 @@
     padding: 10px;
     margin-bottom: 2rem;
     border-radius: 1rem;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--secondary-color);
 }
