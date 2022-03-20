@@ -1,7 +1,7 @@
 @import url(index.css);
 
 body {
-    background-color: var(--primary-color) ;
+    background-color: var(--primary-color);
     color: var(--secondary-color);
 }
 
@@ -23,16 +23,16 @@ body {
 .start-play {
     background-color: var(--primary-shade-color);
     color: var(--secondary-color);
-    
+
     text-align: center;
     text-decoration: none;
     font-size: 20px;
 
     border: none;
-    border-radius: 50px;
+    border-radius: 3.125rem;
 
     padding: 10px;
-    width: 100px;
+    width: 6.25rem;
     margin: auto;
     margin-top: 2rem;
     left: 10vw;
