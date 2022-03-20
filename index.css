@@ -1,0 +1,110 @@
+:root {
+  --primary-color:
+    #18a09d;
+  --secondary-color: #FFFFFF;
+  --primary-shade-color: #1fcecb;
+  --font-family: 'Poppins';
+  font-size: 100%;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--primary-color);
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  /* create a 3 column layout of equal width **/
+  grid-auto-rows: auto;
+  grid-auto-columns: auto;
+  grid-gap: 5px;
+
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+  padding: 0;
+  margin: 0;
+  margin-top: 10%;
+}
+
+.question-container {
+  width: 6rem;
+  color: var(--secondary-color);
+}
+
+.question-container button {
+  width: 100%;
+  color: var(--secondary-color);
+  border-radius: 1.5625rem;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+}
+
+.heading {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.sub-heading {
+  font-size: 1.5625rem;
+  font-weight: lighter;
+  margin-top: 1rem;
+}
+
+.card {
+  background-color: var(--primary-shade-color);
+  border-radius: 12px;
+  min-width: 25rem;
+  font-size: 1rem;
+}
+
+.quizHeading {
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 2rem;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card img {
+  width: 100%;
+  height: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+  padding: 2px 16px;
+  color: var(--secondary-color);
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  font-size: 1rem;
+  color: var(--secondary-color);
+}
+
+.options a {
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.play-now-btn {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border: none;
+}
