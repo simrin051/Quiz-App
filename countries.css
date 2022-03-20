@@ -1,0 +1,52 @@
+@import url(index.css);
+
+body {
+    background-color: var(--primary-color);
+    display: grid;
+    place-items: center;
+}
+
+.main-container {
+    width: 31.25rem;
+    display: grid;
+    place-items: center;
+}
+
+.main-container .scoreboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 31.25rem;
+    color: var(--secondary-color);
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.3rem;
+    white-space: nowrap;
+}
+
+.question-container {
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.quizHeading {
+    top: 0px;
+    margin-top: 0px;
+    display: none;
+}
+
+.answer-options {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+}
+
+.answer-option {
+    background-color: var(--primary-shade-color);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+}
