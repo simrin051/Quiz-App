@@ -4,6 +4,7 @@
 ### Each category has 5 questions.
 ### Please read the instructions carefully before playing.
 ### It is built using html, css.
+### It is a Responsive UI.
 
 
 
