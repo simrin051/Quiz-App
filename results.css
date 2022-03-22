@@ -33,3 +33,17 @@
     font-size: 1.25rem;
     color: var(--secondary-color);
 }
+
+.result-container {
+    width: 31.25rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .result-container {
+        width: 80vw;
+    }
+}

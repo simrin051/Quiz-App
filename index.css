@@ -1,7 +1,7 @@
 :root {
   --primary-color:
     #18a09d;
-  --secondary-color: #FFFFFF;
+  --secondary-color: black;
   --primary-shade-color: #1fcecb;
   --font-family: 'Poppins';
   font-size: 100%;
@@ -67,8 +67,8 @@ body {
 }
 
 .quizHeading {
-  text-align: center;
   color: var(--secondary-color);
+  text-align: center;
   font-size: 2rem;
 }
 
