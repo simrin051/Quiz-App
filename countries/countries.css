@@ -1,0 +1,83 @@
+@import url(../index.css);
+
+:root {
+    --primary-color:
+        #18a09d;
+    --secondary-color: black;
+    --primary-shade-color: #1fcecb;
+    --font-family: 'Poppins';
+    font-size: 100%;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.main-container {
+    width: 31.25rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.main-container .scoreboard {
+    display: flex;
+    justify-content: space-around;
+    width: 31.25rem;
+    color: var(--secondary-color);
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.3rem;
+    white-space: nowrap;
+}
+
+.question-container {
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.quizHeading {
+    top: 0px;
+    margin-top: 0px;
+
+}
+
+.answer-options {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+}
+
+.answer-option {
+    background-color: var(--primary-shade-color);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+}
+
+.results-btn {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 2px solid var(--secondary-color);
+    padding: 10px;
+    background-color: var(--primary-shade-color);
+    font-family: var(--font-family);
+    font-size: 20px;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .main-container {
+        width: 80vw;
+    }
+
+    .main-container .scoreboard {
+        width: 80vw;
+        margin: auto;
+    }
+}
